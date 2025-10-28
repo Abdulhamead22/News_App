@@ -3,11 +3,9 @@ import 'dart:async';
 import 'package:conditional_builder_null_safety/conditional_builder_null_safety.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_application_1/cache_helper.dart';
 import 'package:flutter_application_1/layout/news_App/cubit/cubit.dart';
 import 'package:flutter_application_1/layout/news_App/cubit/state.dart';
 import 'package:flutter_application_1/layout/news_App/modules/web_view/web_viewscreen.dart';
-import 'package:flutter_application_1/layout/shop_App/modules/login/shop_login_screen.dart';
 import 'package:flutter_application_1/style/icon_broken.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:fluttertoast/fluttertoast.dart';
@@ -260,15 +258,7 @@ Future<bool?> toast(String text, Color color) {
   );
 }
 
-void signOut(context) {
-  CacheHelper.clearData(key: 'token').then(
-    (value) {
-      if (value) {
-        navigatTo(context, LoginScreen());
-      }
-    },
-  );
-}
+
 
 Container emailVerified() {
   return Container(
