@@ -9,8 +9,7 @@
 .history
 .svn/
 migrate_working_dir/
-/build/
-android/app/build/
+
 
 # IntelliJ related
 *.iml
@@ -31,7 +30,14 @@ android/app/build/
 .flutter-plugins-dependencies
 .pub-cache/
 .pub/
+
 /build/
+android/app/build/
+
+/.gradle/
+
+
+
 
 # Symbolication related
 app.*.symbols
