@@ -31,8 +31,8 @@ WidgetsFlutterBinding.ensureInitialized();
 }
 
 class MyApp extends StatelessWidget {
-  final bool? isDark;
-  const MyApp({this.isDark,  super.key});
+   bool? isDark;
+   MyApp({this.isDark,  super.key});
 
   // This widget is the root of your application.
   @override

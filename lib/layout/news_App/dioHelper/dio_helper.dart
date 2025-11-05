@@ -1,7 +1,7 @@
 import 'package:dio/dio.dart';
 
 class DioHelper {
-  static Dio? dio;
+  static late Dio dio;
 
   static init() {
     //عملتها عشان اول ما يفتح يعرفلي الديو
@@ -11,8 +11,9 @@ class DioHelper {
     ));
   }
 
-  static Future<Response<dynamic>?> getData({required String url, required Map<String, dynamic> query}) async{
-    return await dio?.get(
+  static Future<Response<dynamic>?> getData({
+    required String url, required Map<String, dynamic>? query}) async{
+    return await dio.get(
       url,
       queryParameters: query,
     );
