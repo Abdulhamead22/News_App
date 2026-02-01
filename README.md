@@ -30,7 +30,7 @@ This project is designed to be a strong portfolio piece on GitHub.
 
 ## 📂 Project Structure
 
-
+```text
 lib/
  ├── layout/
  │   ├── cubits/
