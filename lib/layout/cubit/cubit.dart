@@ -4,12 +4,12 @@
  */
 
 import 'package:flutter/material.dart';
-import 'package:flutter_application_1/layout/news_App/cubit/state.dart';
+import 'package:flutter_application_1/layout/cubit/state.dart';
 import 'package:flutter_application_1/cache_helper.dart';
-import 'package:flutter_application_1/layout/news_App/dioHelper/dio_helper.dart';
-import 'package:flutter_application_1/layout/news_App/modules/busniess/busniess_screen.dart';
-import 'package:flutter_application_1/layout/news_App/modules/science/science_screen.dart';
-import 'package:flutter_application_1/layout/news_App/modules/sports/sport_screen.dart';
+import 'package:flutter_application_1/layout/dioHelper/dio_helper.dart';
+import 'package:flutter_application_1/layout/modules/busniess/busniess_screen.dart';
+import 'package:flutter_application_1/layout/modules/science/science_screen.dart';
+import 'package:flutter_application_1/layout/modules/sports/sport_screen.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
 class NewsCubit extends Cubit<NewsStates> {

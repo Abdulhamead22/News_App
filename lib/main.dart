@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_application_1/layout/news_App/cubit/cubit.dart';
-import 'package:flutter_application_1/layout/news_App/cubit/state.dart';
+import 'package:flutter_application_1/layout/cubit/cubit.dart';
+import 'package:flutter_application_1/layout/cubit/state.dart';
 import 'package:flutter_application_1/cache_helper.dart';
-import 'package:flutter_application_1/layout/news_App/dioHelper/dio_helper.dart';
-import 'package:flutter_application_1/layout/news_App/news_layout.dart';
+import 'package:flutter_application_1/layout/dioHelper/dio_helper.dart';
+import 'package:flutter_application_1/layout/news_layout.dart';
 import 'package:flutter_application_1/style/theam.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
@@ -56,10 +56,10 @@ class MyApp extends StatelessWidget {
               debugShowCheckedModeBanner: false,
               theme: ligthTheam,
               darkTheme: darkTheam,
-              // themeMode: NewsCubit.get(context).isDark
-              //     ? ThemeMode.dark
-              //     : ThemeMode.light,
-              themeMode: ThemeMode.light,
+              themeMode: NewsCubit.get(context).isDark
+                  ? ThemeMode.dark
+                  : ThemeMode.light,
+            //  themeMode: ThemeMode.light,
              home: NewsLayout(),
 
             );

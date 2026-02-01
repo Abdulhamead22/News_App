@@ -2,9 +2,9 @@ import 'dart:async';
 
 import 'package:conditional_builder_null_safety/conditional_builder_null_safety.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_application_1/layout/news_App/cubit/cubit.dart';
-import 'package:flutter_application_1/layout/news_App/cubit/state.dart';
-import 'package:flutter_application_1/layout/news_App/modules/web_view/web_viewscreen.dart';
+import 'package:flutter_application_1/layout/cubit/cubit.dart';
+import 'package:flutter_application_1/layout/cubit/state.dart';
+import 'package:flutter_application_1/layout/modules/web_view/web_viewscreen.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:fluttertoast/fluttertoast.dart';
 

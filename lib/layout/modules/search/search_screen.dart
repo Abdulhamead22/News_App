@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_application_1/layout/news_App/cubit/cubit.dart';
-import 'package:flutter_application_1/layout/news_App/cubit/state.dart';
-import 'package:flutter_application_1/layout/widget/widget.dart';
+import 'package:flutter_application_1/layout/cubit/cubit.dart';
+import 'package:flutter_application_1/layout/cubit/state.dart';
+import 'package:flutter_application_1/widget/widget.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
 var searchController = TextEditingController();
