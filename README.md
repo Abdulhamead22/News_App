@@ -42,6 +42,19 @@ lib/
  ├── cache_helper.dart
  └── main.dart
 ```
+## 📸 Screenshots
+
+### Home Light Screen
+![Home light](photo/page2.png)
+
+### Home Dark Screen
+![Home dark](photo/page4.png)
+
+### Web News Screen
+![Web](photo/page1.png)
+
+### Search Screen
+![Search](photo/page3.png)
 
 ## 👨‍💻 Author
 
